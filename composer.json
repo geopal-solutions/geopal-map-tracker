@@ -1,0 +1,38 @@
+{
+    "name": "geopal-solutions/geopal-map-tracker",
+    "description": "Widget to render a GeoPal employee tracker map.",
+    "keywords": ["geopal", "map", "employee", "tracker"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Gabor Zelei",
+        "email": "gabor.zelei@geopal-solutions.com"
+    }],
+    "autoload": {
+        "psr-0": {
+            "GeoPal": "src/",
+            "Geopal": "vendor/geopal-solutions/geopal-php-client/src"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "repositories": [{
+        "type":"package",
+        "package": {
+            "name": "geopal-solutions/geopal-php-client",
+            "version":"0.1.7",
+            "source": {
+                "url": "https://github.com/geopal-solutions/geopal-php-client.git",
+                "type": "git",
+                "reference": "master"
+            }
+        }
+    }],
+    "require": {
+        "geopal-solutions/geopal-php-client": "*",
+        "guzzle/guzzle": "3.7.*@dev",
+        "monolog/monolog": "1.10.*@dev",
+        "twig/twig": "1.16.*@dev"
+    }
+}

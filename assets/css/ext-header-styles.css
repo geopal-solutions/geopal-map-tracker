@@ -1,0 +1,503 @@
+html{overflow: hidden !important}
+nav{position:relative;height:69px;padding-top:10px;}
+nav > ul{position:absolute;top:10px;clear:both}
+nav > ul > li.current {min-width: 72px}
+nav > ul > li > ul > li, #sub-nav a.nav-button{height:22px;}
+.addIcon{background: url(./images/icon/add16x16.png)}
+.editIcon{background: url(./images/icon/edit16x16.png)}
+.historyIcon{background: url(./images/icon/historyIcon16x16.png)}
+.deleteIcon{background: url(./images/icon/delete16x16.png)}
+.listIcon{background: url(./images/icon/list16x16.png)}
+.activeIcon{background: url(./images/icon/activeDot16x16.png)}
+.refreshIcon{background: url(./images/icon/refreshIcon16x16.png) center center no-repeat}
+.saveIcon{background: url(./images/icon/saveIcon16x16.png) center center no-repeat}
+.saveIcon16x24{background: url(./images/icon/saveIcon16x24.png) center center no-repeat}
+.inactiveIcon{background: url(./images/icon/inactiveDot16x16.png)}
+.previousIcon{background: url(./images/icon/previousArrow16x16.png)}
+.cencelIcon{background: url(./images/icon/back16x16.png)}
+.nextIcon{background: url(./images/icon/nextArrow16x16.png)}
+.mapIcon{background: url(./images/icon/mapIcon16x16.png)}
+.redPinIcon{background: url(./images/icon/redPinIcon16x16.png)}
+.leftArrow{background: url(./images/icon/leftArrowIcon16x16.png)}
+.rightArrow{background: url(./images/icon/rightArrowIcon16x16.png.png)}
+.clearIcon{background: url(./images/icon/clearIcon16x16.png)}
+.searchIcon{background: url(./images/icon/binoculars16x16.png)}
+.helpIcon{background: url(./images/icon/helpIcon16x16.png)}
+.dateTimeIcon{background: url(./images/icon/dateTimeIcon16x16.png)}
+.iconRecord{display:block;float:left;width:16px;height:16px;clear:both;padding-left:20px;}
+.tickRecord{background: url(./images/icon/green-bullet16x16.png) 0 -1px no-repeat;}
+.blackCrossRecord{background: url(./images/icon/gray-bullet16x16.png) 0 -1px no-repeat;}
+.activeRecord{background: url(./images/icon/activeDot16x16.png) 0 -1px no-repeat;}
+.inactiveRecord{background: url(./images/icon/inactiveDot16x16.png) 0 -1px no-repeat;}
+.excelIcon{background: url(./images/icon/excel16x16.png)}
+.infoIcon{background: url(./images/icon/information16x16.png)}
+.warningIcon{background: url(./images/icon/warning16x16.png)}
+.informationBox16x16{background: url(./images/icon/helpIcon16x16.png) #fff 0 0 no-repeat;line-height: 16px !important;text-indent: 22px;height: 16px;min-width: 600px;}
+.informationBox{background: url(./images/icon/information64x64.png) #fafafa 5px 5px no-repeat;border:#eee 1px solid;line-height:18px !important;color:#444 !important;padding:10px 20px 20px 70px !important;}
+.informationBox span, .informationBox div{background: transparent !important;}
+.emptyGridInformation{background: url(./images/icon/info_green64x64.png) #fafafa 5px 5px no-repeat;border:#ededed 1px solid;line-height:18px !important;color:#444 !important;padding:10px 20px 20px 70px !important;}
+.emptyGridInformationBlueIcon{font-size:12px !important;background: url(./images/icon/information64x64.png) #fafafa 5px 5px no-repeat;border:#ededed 1px solid;line-height:18px !important;color:#444 !important;padding:10px 20px 20px 70px !important;}
+
+.informationPopup{background: url(./images/icon/information64x64.png) #fafafa 5px 5px no-repeat;border:#ededed 1px solid;line-height:16px !important;color:#444 !important;padding:8px 20px 15px 70px !important;}
+.infoBar{background: url(./images/icon/information16x16.png) left center no-repeat;padding: 2px 0 2px 20px;color:#444;font-size:11px;}
+.warningBar{background: url(./images/icon/warning16x16.png) left center no-repeat;padding: 2px 0 2px 20px;color:#444;font-size:11px;}
+.warningBar{background: url(./images/icon/warning16x16.png) left center no-repeat;padding: 2px 0 2px 20px;color:#444;font-size:11px;top: 0 !important;line-height:20px;}
+
+.fileIcon{background: url(./images/icon/fileIcon16x16.png) left center no-repeat;line-height: 16px;padding:10px 10px 10px 20px;display:block;color:#333;}
+
+.filePreview{background: #f9f9f9;box-shadow:#999 0 0 1px inset;margin:5px !important;}
+.x-boxselect-list{max-height: 45px;}
+.filePreview{padding:5px 10px;display:block;}
+#filePreview{margin-left: 0 !important;padding-left: 0 !important;}
+#filePreview #filePreview-body{border: 0 !important;}
+.filePreview img{width:95%;height:95%;float:left;}
+.gridImagePreview{max-width: 100px;max-height: 50px;margin: 5px;}
+.warningBar, .warningBar2{font-size: 10px !important;width: 400px !important;line-height: 16px !important;}
+.assetsInfo{padding:0px 10px;line-height: 20px;color:#444 !important;overflow: auto;height:inherit;}
+.assetsInfo h1, .assetsInfo h2{color: #444 !important}
+.assetsInfo ul{list-style: square inside;}
+.assetsInfo h2{font-weight: normal;font-size:20px;}
+.assetsInfo .image{box-shadow: #ccc 0 0 10px;border:#ddd 1px solid;margin:20px 0;}
+.fileIcon16{list-style: none;}
+.fileIcon16 li{list-style: none;display: inline-block;line-height: 16px;}
+.fileIcon16 li img{padding: 5px 5px 0 0}
+.fileIcon16 li span{float:left;margin-top:-3px;}.assetsInfo .image{box-shadow: #ccc 0 0 10px;border:#ddd 1px solid;margin:20px 0;}
+.grid-iconStatus{width:16px;height:16px;display:block;}
+.grid-iconStatus.red{background: url(./images/icon/red-bullet16x16.png) left center no-repeat;}
+.grid-iconStatus.yellow{background: url(./images/icon/yellow-bullet16x16.png) left center no-repeat;}
+.grid-iconStatus.green{background: url(./images/icon/green-bullet16x16.png) left center no-repeat;}
+.colorComboboxColorBoxWrapper{line-height: 16px;display: inline-block;padding: 0;margin: 0;list-style: none;}
+.colorComboboxColorBoxWrapper li{list-style: none;display: inline-block;}
+
+.comboboxListItems{line-height: 16px;display: inline-block;padding: 0;margin: 0;list-style: none;}
+.comboboxListItems li{list-style: none;display: inline-block;}
+.comboboxListItems .statusIcon{display:block;width:16px;height:16px;margin: 0 5px;background: url(./images/icon/green-bullet16x16.png) left center no-repeat;}
+.comboboxListItems .icon-1{background: url(./images/icon/yellow-bullet16x16.png) left center no-repeat !important;}
+.comboboxListItems .icon-2{background: url(./images/icon/red-bullet16x16.png) left center no-repeat !important;}
+
+.colorComboboxColorBox{display:block;width:14px;height:14px;border:#aaa 1px solid;margin-right: 10px;}
+.crm .informationBox{min-height: 230px !important;height:230px !important;}
+#DistributionListLeftColumn .informationBox{min-height: 230px !important;height: auto !important; max-height: 260px !important;}
+.employeeEl{cursor: pointer;position: relative;}
+.employeeEl:hover{box-shadow: #ccc 0 0 5px}
+.employeesMapList{display:block !important;line-height: 16px;padding:0;width:420px;border-bottom:#ddd 1px solid;margin: 0 0 5px 0;height:80px;}
+.employeesMapList:nth-child(2n+1){background: #ecf8ff}
+.employeesMapList span{display:block !important;clear: both !important;font-size:10px;}
+.employeesMapList span b{font-size:12px}
+.employeesMapList ul{list-style: none;padding:0;margin:5px 0 0 0;}
+.employeesMapList li{display: block;float: left;width: 330px;padding:5px;}
+.employeesMapList li:first-child{width: 85px;padding:0}
+.searchWrapper{display:block !important;padding: 10px !important;border-top: #ddd 1px solid;border-bottom: #ddd 1px solid}
+.searchWrapper, .searchWrapper div.x-panel-body{background:#eef3fb !important;}
+.employeesMapList .statuses{margin:0;padding:0;position:absolute;}
+.employeesMapList .statuses li{float:left;font-size:9px !important;line-height: 18px;width:auto;margin:0 !important;padding:0 !important}
+.employeesMapList .statuses li.sep{padding: 0 2px;width:1px;margin:0 7px !important;}
+.employeesMapList .statuses li b{float: left !important;width:16px;padding:0;margin:0 3px 0 0;display:block;width: 16px;height:16px;}
+.employeesMapList .clear{float: none;clear: both;}
+.employeesMapList .profile{width:80px;height:80px;background: url(./assets/images/geopal/icons/person/default-avatar.png);padding:1px;border: #ddd 1px solid;}
+.employeesMapList .battery{background: url(./images/icon/battery16x16.png) left center no-repeat;}
+.employeesMapList .speed{background: url(./images/icon/speed16x16.png) left center no-repeat;}
+.employeesMapList .accuracy{background: url(./images/icon/map16x16.png) left 1px no-repeat;}
+.employeesMapList .status .red{background: url(./images/icon/red-marker16x16.png) left center no-repeat;}
+.employeesMapList .status .yellow{background: url(./images/icon/yellow-marker16x16.png) left center no-repeat;}
+.employeesMapList .status .green{background: url(./images/icon/green-marker16x16.png) left center no-repeat;}
+.gmapTooltip .title{font-size:13px;margin:0 0 5px 0;display: block;}
+.gmapTooltip{font-size: 11px;line-height: 18px;}
+.gmapTooltip b{}
+.gmapTooltip p{margin-bottom: 10px;}
+.gmapTooltip b i{text-decoration: none;font-style: normal;display: block;}
+.gmapTooltip .list{padding:0;margin:0}
+.gmapTooltip .list li{display:inline-block;font-size: 10px;}
+.gmapTooltip .icon{width:16px;height:16px;display:block;float:left;}
+.gmapTooltip .list .battery{background: url(./images/icon/battery16x16.png) left center no-repeat;}
+.gmapTooltip .list .speed{background: url(./images/icon/speed16x16.png) left center no-repeat;}
+.gmapTooltip .status.red{background: url(./images/icon/red-marker16x16.png) left center no-repeat;}
+.gmapTooltip .status.yellow{background: url(./images/icon/yellow-marker16x16.png) left center no-repeat;}
+.gmapTooltip .status.green{background: url(./images/icon/green-marker16x16.png) left center no-repeat;}
+.gmapTooltip .list .accuracy{background: url(./images/icon/map16x16.png) left 2px no-repeat;}
+.gmapTooltip .list .sep{margin:0 5px;}
+.radioRed{background: url(./images/icon/red-marker16x16.png) 15px center no-repeat;}
+.radioYellow{background: url(./images/icon/yellow-marker16x16.png) 15px center no-repeat}
+.radioGreen{background: url(./images/icon/green-marker16x16.png) 15px center no-repeat}
+.radioRed .x-form-cb-label-after, .radioGreen .x-form-cb-label-after, .radioYellow .x-form-cb-label-after{margin-left:20px !important;}
+
+
+#companyAddressForm1 table.x-field{margin:0 !important;}
+#companyAddressForm1 .x-form-text{border:0 !important;background: transparent !important;}
+#employeeGridPanelWrapper .emptyGridInformation{margin: 10px;min-height: 70px;}
+
+
+#main-nav{
+    padding-top: 0 !important;
+}
+
+#main-nav header{
+    margin-top: 0 !important;
+}
+
+nav#main-nav{
+    height: 79px !important;
+}
+
+.x-body {
+    font-family: verdana, arial, tahoma, sans-serif !important;
+    color: #444 !important;
+}
+
+.x-mask-msg-inner {
+    font: normal 12px verdana, arial, tahoma, sans-serif !important;
+}
+
+.x-btn-default-small .x-btn-inner {
+    font-family: verdana, arial, tahoma, sans-serif !important;
+}
+
+.x-btn-default-medium .x-btn-inner {
+    font-size: 12px !important;
+    font-family: verdana, arial, tahoma, sans-serif !important;
+    color: #333 !important;
+}
+
+.x-btn-default-large .x-btn-inner {
+    font-size: 12px !important;
+    font-family: verdana, arial, tahoma, sans-serif !important;
+}
+
+.x-btn-default-toolbar-small .x-btn-inner {
+    font-size: 12px !important;
+    font-family: verdana, arial, tahoma, sans-serif !important;
+    color: #333 !important;
+}
+
+.x-btn-default-toolbar-medium .x-btn-inner {
+    font-size: 12px !important;
+    font-family: verdana, arial, tahoma, sans-serif !important;
+    color: #333 !important;
+}
+
+.x-btn-default-toolbar-large .x-btn-inner {
+    font-size: 12px !important;
+    font-family: verdana, arial, tahoma, sans-serif !important;
+    color: #333 !important;
+}
+
+.x-toolbar .x-toolbar-text {
+    line-height: 16px !important;
+    font-family: verdana, arial, tahoma, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+
+.x-panel-header-text-container-default {
+    font-family: verdana, arial, tahoma, sans-serif !important;
+}
+
+.x-panel-header-text-container-default-framed {
+    font-family: verdana, arial, tahoma, sans-serif !important;
+}
+
+.x-window-header-text-container-default {
+    font-family: verdana, arial, tahoma, sans-serif !important;
+    font-size: 12px !important;
+}
+
+.x-accordion-hd .x-panel-header-text-container {
+    font-family: verdana, arial, tahoma, sans-serif !important;
+}
+
+.x-tab-default .x-tab-inner {
+    font-family: verdana, arial, tahoma, sans-serif !important;
+    line-height: 13px !important;
+}
+
+.x-grid-cell-inner {
+    line-height: 16px !important;
+    font-size: 12px !important;
+}
+
+.x-table-layout {
+    font-size: 12px !important;
+}
+
+.x-toolbar {
+    font-size: 12px !important;
+}
+
+.x-panel-header-default {
+    font-size: 12px !important;
+}
+
+.x-panel-body-default {
+    font-size: 12px !important;
+}
+
+.x-panel-header-default-framed {
+    font-size: 12px !important;
+}
+
+.x-panel-body-default-framed {
+    font-size: 12px !important;
+}
+
+.x-tip-header-text-container-default {
+    font-size: 12px !important;
+}
+
+.x-tip-header-text-container-form-invalid {
+    color: #444 !important;
+    font-size: 12px !important;
+}
+
+.x-window-header-default {
+    font-size: 12px !important;
+}
+
+.x-toolbar-item .x-form-item-label {
+    font-size: 12px !important;
+}
+
+.x-html-editor-tb .x-font-select {
+    font-size: 12px !important;
+}
+
+.x-menu-item-text {
+    font-size: 12px !important;
+}
+
+.x-menu-item .x-form-item-label {
+    font-size: 12px !important;
+}
+
+#app-header {
+    color: #596F8F;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 8px 15px;
+    text-shadow: 0 1px 0 #fff;
+}
+#app-msg {
+    background: #D1DDEF;
+    border: 1px solid #ACC3E4;
+    padding: 3px 15px;
+    font-weight: bold;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.x-panel-ghost {
+    z-index: 1;
+}
+.x-border-layout-ct {
+    background: #DFE8F6;
+}
+
+.x-portal .x-portal-column {
+    /* columns must have vertical padding to avoid losing dimensions when empty */
+    padding: 8px 8px 0 0;
+}
+.x-portal .x-panel-dd-spacer {
+    border: 2px dashed #99bbe8;
+    background: #f6f6f6;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    margin-bottom: 10px;
+}
+.x-portlet {
+    margin-bottom:10px;
+    padding: 1px;
+}
+.x-portlet .x-panel-body {
+    background: #fff;
+}
+.portlet-content {
+    padding: 10px;
+    font-size: 11px;
+}
+
+#app-options .portlet-content {
+    padding: 5px;
+    font-size: 12px;
+}
+
+
+.x-form-itemselector-body .x-form-item {
+    margin: 0;
+}
+
+.x-form-itemselector-top {
+    background-image: url(./images/icon/top2.gif);
+}
+.x-form-itemselector-up {
+    background-image: url(./images/icon/up2.gif);
+}
+.x-form-itemselector-add {
+    background-image: url(./images/icon/right2.gif);
+}
+.x-form-itemselector-remove {
+    background-image: url(./images/icon/left2.gif);
+}
+.x-form-itemselector-down {
+    background-image: url(./images/icon/down2.gif);
+}
+.x-form-itemselector-bottom {
+    background-image: url(./images/icon/bottom2.gif);
+}
+
+.x-btn-geopal-configuration {
+    border-color: #b0ccf2;
+    background-image: none;
+    background-color: #e4f3ff;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e4f3ff), color-stop(48%, #d9edff), color-stop(52%, #c2d8f2), color-stop(100%, #c6dcf6));
+    background-image: -webkit-linear-gradient(top, #e4f3ff, #d9edff 48%, #c2d8f2 52%, #c6dcf6);
+    background-image: -moz-linear-gradient(top, #e4f3ff, #d9edff 48%, #c2d8f2 52%, #c6dcf6);
+    background-image: -o-linear-gradient(top, #e4f3ff, #d9edff 48%, #c2d8f2 52%, #c6dcf6);
+    background-image: linear-gradient(top, #e4f3ff, #d9edff 48%, #c2d8f2 52%, #c6dcf6);
+}
+
+.x-btn-geopal-configuration:hover {
+    border-color: #cccccc;
+    background-image: none;
+    background-color: white;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(48%, #f9f9f9), color-stop(52%, #e2e2e2), color-stop(100%, #e7e7e7));
+    background-image: -webkit-linear-gradient(top, #ffffff, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
+    background-image: -moz-linear-gradient(top, #ffffff, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
+    background-image: -o-linear-gradient(top, #ffffff, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
+    background-image: linear-gradient(top, #ffffff, #f9f9f9 48%, #e2e2e2 52%, #e7e7e7);
+}
+
+.rowRed .x-grid-cell-inner font{
+    background-color: red !important;
+    background: red !important;
+}
+.rowGreen .x-grid-cell{
+    background-color: palegreen !important;
+    background: palegreen !important;
+}
+.rowAmber .x-grid-cell{
+    background-color: yellow !important;
+    background: yellow !important;
+}
+
+
+div.x-grid-cell-inner>font.Green, font.Green{
+    display:block;
+    background-color: #A4DB86 !important;
+    background: #A4DB86 !important;
+    line-height: 16px;
+}
+
+div.x-grid-cell-inner>font.Red,font.Red{
+    display:block;
+    background-color: #FC7272 !important;
+    background: #FC7272 !important;
+    line-height: 16px;
+}
+
+div.x-grid-cell-inner>font.Amber, font.Amber{
+    display:block;
+    background-color: #FCF6AC !important;
+    background: #FCF6AC !important;
+    line-height: 16px;
+}
+
+.x-hide-clip{
+    display: none !important;
+}
+
+span.star{color: red;}
+
+/*.RedRowTD{background:#FC7272 !important}
+.amberRowTD{background:#FCF6AC !important}
+.GreenRowTD{background:#A4DB86 !important}*/
+
+
+.listClass li{
+    list-style: disc;
+}
+
+.assetsinfo{text-transform:capitalize;}
+
+.assetsinfo p{display: block;padding:10px 0}
+
+.assetsinfo ul{
+    padding: 0 0 0 20px;
+    margin: 0;
+}
+
+.assetsinfo ul li{
+    line-height: 24px;
+    list-style: disc !important;
+    list-style-position: inside;
+}
+
+.geopal-x-item-readOnlyCls{
+    color: #222;
+    opacity:0.8;
+    filter:alpha(opacity=80)
+}
+
+.colorBox{
+    display: block;
+    border: #999 1px solid;
+    width: 14px;
+    height: 14px;
+    margin: 0 auto;
+}
+.x-geopal-item-over {
+    background-color: #efefef;
+    border: 1px solid #dddddd !important;
+}
+
+.x-geopal-item-selected {
+    background-color: #eff5fb;
+    border: 1px solid #99bbe8 !important;
+}
+
+.x-geopal-thumb-wrap {
+    border: 1px solid #ffffff;
+    display: inline-block;
+    float: left;
+    padding: 4px;
+}
+
+.x-geopal-thumb-wrap .image {
+    background: transparent;
+    margin: 4px;
+    text-align: center;
+}
+
+.x-geopal-thumb-wrap .label {
+    cursor: default;
+    height: 40px;
+    padding: 4px;
+    text-align: center;
+    width: 80px;
+}
+
+.x-btn-icon .x-geopal-icon-button{
+    min-height: 40px !important;
+    min-width: 25px !important;
+}
+
+.phone-icon-green {
+    background-image: url(./images/icon/phone_icon_green.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 22px 12px;
+    cursor: pointer;
+    float: right;
+    height: 12px;
+    width: 22px;
+}
+
+.phone-icon-red {
+    background-image: url(./images/icon/phone_icon_red.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 22px 12px;
+    cursor: pointer;
+    float: right;
+    height: 12px;
+    width: 22px;
+}

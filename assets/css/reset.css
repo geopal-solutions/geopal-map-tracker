@@ -1,0 +1,79 @@
+.footer {
+    font-weight: 100;
+    background: #777;
+    padding: 0 20px;
+    color: #ddd;
+    line-height: 16px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer ul {
+    float: right;
+    clear: both;
+    margin: 0;
+}
+
+.footer ul li {
+    float: left;
+    padding: 10px 5px;
+}
+
+.footer a {
+    color: #ddd;
+    font-weight: normal;
+}
+
+.footer span.logo {
+    background: url(https://app.geopalsolutions.com/assets/css/images/small_geopal_logo.png) top left;
+    width: 20px;
+    height: 18px;
+    margin-bottom: -3px;
+}
+
+.footer .poweredBy {
+    color: #a8daf0;
+    text-shadow: 0 0 5px #333;
+}
+
+.footer .geopal {
+    color: #000;
+    font-weight: bold;
+}
+
+.footer span {
+    display: inline-block;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+#extjscontainer {
+    margin-left: 0.5%;
+    margin-right: .5%;
+    border-top: #bbb 1px solid;
+    border-bottom: #bbb 1px solid;
+    display: block;
+    width: 99%;
+    line-height: 150px;
+    min-height: 150px;
+    color: #333;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: #fff 0 0 15px;
+    box-shadow: #bbb 0 0 10px;
+    background: #fff;
+}
+
+#extjscontainer.reset {
+    border: 0;
+    border-bottom: #ccc 5px solid !important;
+    background: none;
+    color: transparent;
+    line-height: 0;
+    text-align: left;
+    letter-spacing: normal;
+    font-weight: normal;
+    text-shadow: none;
+}
