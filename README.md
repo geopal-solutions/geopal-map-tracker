@@ -24,7 +24,7 @@ There are multiple ways to use the stand-alone map:
 * You can go and display the `index.php` file (as a stand-alone page or in an `iframe` tag). This is the recommended way.
 * You can instantiate the Tracker class as shown in the example below, then you can generate the HTML required to display the map, and show it programmatically wherever you see fit. For issues with this approach, please refer to the `Notes` section at the end of this README.
 
-## Example
+## Example for Tracker class instantiation
 
 ```php
 use GeoPal\Map\Config;
