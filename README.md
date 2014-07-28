@@ -3,6 +3,7 @@ geopal-map-tracker
 
 This stand-alone page allows you to track your employees via GeoPal, from within your own project.
 
+![screenshot](https://raw.githubusercontent.com/geopal-solutions/geopal-map-tracker/master/ScreenShot.png)
 
 # Requirements
 
