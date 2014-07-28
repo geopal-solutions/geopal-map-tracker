@@ -7,17 +7,6 @@ vendor
 config.php
 error.log
 assets/js/GeoPal/Readme.md
-assets/js/GeoPal/app/*
-assets/js/GeoPal/app.js
-assets/js/GeoPal/app.json
-assets/js/GeoPal/bootstrap.css
-assets/js/GeoPal/bootstrap.js
-assets/js/GeoPal/bootstrap.json
 assets/js/GeoPal/build/temp/*
 assets/js/GeoPal/ext/*
 assets/js/GeoPal/index.html
-assets/js/GeoPal/overrides/*
-assets/js/GeoPal/packages/*
-assets/js/GeoPal/resources/*
-assets/js/GeoPal/sass/*
-assets/js/Utils/*
