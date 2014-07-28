@@ -48,4 +48,4 @@ $response = $tracker->getData('employees', false);
 
 # Notes
 
-In case you are not using the `index.php` file to display the page, please note that currently all async calls are made against the current URL (e.g. `index.php?action=employees`). This means you will need to have very similar logic in place to those found in `index.php`, in order to get a working solution this way.
+In case you are not using the `index.php` file to display the page, please note that currently all async calls are made against the current URL (e.g. `?action=employees`). This means you will need to have very similar logic in place to those found in `index.php`, in order to get a working solution this way.
