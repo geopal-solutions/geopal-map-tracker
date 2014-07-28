@@ -1,7 +1,7 @@
 geopal-map-tracker
 ==================
 
-This stand-alone page allows you to track your employees from within your own project.
+This stand-alone page allows you to track your employees via GeoPal, from within your own project.
 
 
 # Requirements
