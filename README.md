@@ -13,7 +13,7 @@ This project requires PHP 5.3 or greater. You will also need to have [composer](
 
 * Clone or download project files to your machine. 
 * Run `php composer.phar install`.
-* Create a new file called `config.php` from `config_default.php` and modify the it with your own settings.
+* Create a new file called `config.php` from `config_default.php` and modify it with your own settings.
 * You are all set.
 
 
